@@ -28,7 +28,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#backend-skeleton"
     },
     {
       "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
