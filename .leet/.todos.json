@@ -3,7 +3,7 @@
     {
       "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
       "content": "When user submits a research prompt, web search is triggered",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
