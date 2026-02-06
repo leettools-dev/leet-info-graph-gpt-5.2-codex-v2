@@ -3,7 +3,7 @@
     {
       "id": "frontend-add-auth-guard-to-router",
       "content": "Frontend: Add auth guard to router",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
