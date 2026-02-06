@@ -15,6 +15,10 @@ and receive AI-generated infographics wit...
 
 *Features will be documented here as they are implemented.*
 
+
+- Backend skeleton with FastAPI service, Click CLI entry point, and health check endpoint at `/api/v1/health`.
+
+- Backend skeleton with FastAPI service, Click CLI entry point, and health check endpoint at `/api/v1/health`.
 ## Getting Started
 
 ### Prerequisites
