@@ -50,6 +50,12 @@ and receive AI-generated infographics wit...
 
 - Session detail route for reviewing a research session after creation.
 
+
+### Chat Interface
+- Active session overview on the Chat page with prompt context and status.
+- Message list with role styling, loading indicator, and auto-scroll to newest message.
+- Inline message composer with validation and error messaging.
+
 ## Getting Started
 
 ### Prerequisites
