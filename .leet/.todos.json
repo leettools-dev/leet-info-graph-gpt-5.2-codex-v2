@@ -1,16 +1,6 @@
 {
   "todos": [
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "pytest-test-passes-for-health-endpoint",
       "content": "pytest test passes for health endpoint",
       "status": "pending",
@@ -23,46 +13,6 @@
     {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
-      "content": "Create abstract store interfaces for User, Session, Source, Infographic, Message",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
-      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-tables-with-proper-schemas",
-      "content": "Create tables with proper schemas",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "write-pytest-tests-for-crud-operations",
-      "content": "Write pytest tests for CRUD operations",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1163,6 +1113,26 @@
     {
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "run-pytest-when-environment-has-dependencies-installed",
+      "content": "Run pytest when environment has dependencies installed",
       "status": "pending",
       "background": null,
       "dependencies": [],
