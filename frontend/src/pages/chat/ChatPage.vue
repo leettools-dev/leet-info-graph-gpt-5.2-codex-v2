@@ -76,24 +76,16 @@
       </div>
     </div>
 
-    <div class="space-y-2">
-      <el-input
-        v-model="messageInput"
-        :placeholder="t('common.chatInputPlaceholder')"
-        :rows="3"
-        type="textarea"
-        aria-label="Chat message"
-        @keydown.enter.exact.prevent="handleSend"
-      />
-      <div class="flex items-center justify-between">
-        <p class="text-xs text-slate-400">
-          {{ t('common.chatInputHint') }}
-        </p>
-        <el-button :disabled="!canSend" :loading="isSending" type="primary" @click="handleSend">
-          {{ t('common.sendMessage') }}
-        </el-button>
-      </div>
-    </div>
+    <ChatInput
+      v-model="messageInput"
+      :placeholder="t('common.chatInputPlaceholder')"
+      :hint="t('common.chatInputHint')"
+      :send-label="t('common.sendMessage')"
+      :aria-label="t('common.chatInputAria')"
+      :disabled="!session"
+      :loading="isSending"
+      @send="handleSend"
+    />
 
     <div v-if="errorMessage" class="rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-600">
       {{ errorMessage }}
@@ -130,6 +122,7 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 import { createMessage, listMessages } from '../../api/session'
+import ChatInput from '../../components/chat/ChatInput.vue'
 import { useSessionStore } from '../../stores/modules/session'
 
 const router = useRouter()

@@ -25,6 +25,7 @@ export default {
   chatSending: 'Sending message...',
   chatInputPlaceholder: 'Type your question or follow-up...',
   chatInputHint: 'Press Enter to send. Shift + Enter for a new line.',
+  chatInputAria: 'Chat message',
   sendMessage: 'Send',
   chatRoleAssistant: 'Assistant',
   chatRoleSystem: 'System',
