@@ -1,26 +1,6 @@
 {
   "todos": [
     {
-      "id": "frontend-create-sourcelist-vue-and-sourcecard-vue",
-      "content": "Frontend: Create `SourceList.vue` and `SourceCard.vue`",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-display-sources-in-session-detail",
-      "content": "Frontend: Display sources in session detail",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
       "content": "When user submits a research prompt, web search is triggered",
       "status": "pending",

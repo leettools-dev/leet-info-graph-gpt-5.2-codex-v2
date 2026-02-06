@@ -42,6 +42,19 @@ and receive AI-generated infographics wit...
 
 
 - Research session sources endpoint: fetch extracted sources for a session with `/api/v1/sessions/{session_id}/sources`.
+
+
+### Sources (In Progress)
+- Source list components with localized empty/loading states and confidence display.
+- Source card links open in a new tab with accessible labels.
+
+
+
+### Sources (In Progress)
+- Source list components with localized empty/loading states and confidence display.
+- Source card links open in a new tab with accessible labels.
+- Session detail page now renders a sources section and fetches data from the sources API.
+
 ## Getting Started
 
 ### Prerequisites
