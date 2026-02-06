@@ -3,7 +3,7 @@
     {
       "id": "backend-create-search-service-py-with-web-search-capability",
       "content": "Backend: Create `search_service.py` with web search capability",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
