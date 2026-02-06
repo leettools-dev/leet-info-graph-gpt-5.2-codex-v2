@@ -30,6 +30,11 @@ DuckDB-backed data stores for users, research sessions, sources, messages, and i
 DuckDB-backed stores for users, sessions, sources, messages, and infographics with CRUD operations and automatic table creation.
 
 Current features: FastAPI backend skeleton with health endpoint; Vue 3 frontend skeleton with health check and placeholder pages; DuckDB CRUD stores for core entities with tests.
+
+- Google OAuth backend authentication endpoints (`/api/v1/auth/google`, `/api/v1/auth/me`, `/api/v1/auth/logout`) with JWT issuance and verification.
+- Environment-driven auth configuration (Google client ID, JWT secret) in backend settings.
+
+- Backend authentication service verifies Google ID tokens, creates users, and issues JWTs with 24-hour expiry.
 ## Getting Started
 
 ### Prerequisites

@@ -219,6 +219,18 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "auth-backend-service-jwt",
+      "content": "Implement backend auth service + JWT handling (Google token verify, auth router)",
+      "status": "completed",
+      "background": "Goal 4: Google OAuth Login backend pieces.",
+      "dependencies": [],
+      "suggested_solutions": [
+        "Add auth_service.py to verify Google token using google-auth, issue JWT with 24h expiry, integrate auth_router endpoints, update API router registration and settings for JWT/Google client ID."
+      ],
+      "goal_id": "goal-4",
+      "branch": "feature/auth-backend"
     }
   ]
 }
