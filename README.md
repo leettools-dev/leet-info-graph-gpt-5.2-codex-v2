@@ -33,8 +33,12 @@ and receive AI-generated infographics wit...
 - Message list with role styling, loading indicator, and auto-scroll to newest message.
 - Inline message composer with validation and error messaging.
 - ChatInput component for composing and sending research messages with keyboard shortcuts and a send button.
-
 - Chat state management via Pinia with message fetching/sending status tracking.
+
+### Infographic Generation (MVP)
+- Generates a basic infographic PNG for each research session using title, key points, and source count.
+- Stores infographic metadata and image path for retrieval via API.
+- Provides API endpoints to fetch infographic metadata and image file.
 
 ## Getting Started
 

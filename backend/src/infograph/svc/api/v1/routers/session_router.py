@@ -10,11 +10,20 @@ from infograph.core.schemas.message import Message, MessageCreate
 from infograph.core.schemas.research_session import (
     ResearchSession,
     ResearchSessionCreate,
+    ResearchSessionUpdate,
 )
 from infograph.core.schemas.user import User
+from infograph.services.infographic_service import (
+    InfographicService,
+    InfographicServiceError,
+)
+from infograph.services.search_service import SearchService, SearchServiceError
+from infograph.settings import settings
 from infograph.stores.duckdb.duckdb_client import DuckDBClient
+from infograph.stores.duckdb.infographic_store_duckdb import InfographicStoreDuckDB
 from infograph.stores.duckdb.message_store_duckdb import MessageStoreDuckDB
 from infograph.stores.duckdb.session_store_duckdb import SessionStoreDuckDB
+from infograph.stores.duckdb.source_store_duckdb import SourceStoreDuckDB
 from infograph.svc.api_router_base import APIRouterBase
 from infograph.svc.auth import AuthManager, get_auth_manager
 
@@ -30,14 +39,25 @@ class SessionRouter(APIRouterBase):
 
     session_store: SessionStoreDuckDB
     message_store: MessageStoreDuckDB
+    source_store: SourceStoreDuckDB
+    infographic_store: InfographicStoreDuckDB
     auth_manager: AuthManager
+    search_service: SearchService
+    infographic_service: InfographicService
 
     def __init__(self) -> None:
         super().__init__()
         client = DuckDBClient(db_name="infograph")
         self.session_store = SessionStoreDuckDB(client=client)
         self.message_store = MessageStoreDuckDB(client=client)
+        self.source_store = SourceStoreDuckDB(client=client)
+        self.infographic_store = InfographicStoreDuckDB(client=client)
         self.auth_manager = get_auth_manager()
+        test_fetcher = (lambda _query: "<html></html>") if settings.is_test else None
+        self.search_service = SearchService(fetcher=test_fetcher)
+        self.infographic_service = InfographicService(
+            infographic_store=self.infographic_store,
+        )
 
         @self.post("/sessions", response_model=ResearchSession)
         async def create_session(
@@ -45,7 +65,51 @@ class SessionRouter(APIRouterBase):
             calling_user: User = Depends(self.auth_manager.get_user_from_request),
         ) -> ResearchSession:
             """Create a new research session."""
-            return self.session_store.create_session(calling_user.user_id, payload)
+            session = self.session_store.create_session(calling_user.user_id, payload)
+            self.session_store.update_session(
+                session.session_id,
+                ResearchSessionUpdate(status="searching"),
+            )
+            try:
+                sources = self.search_service.search_sources(
+                    session.session_id,
+                    session.prompt,
+                )
+                for source in sources:
+                    self.source_store.create_source(source)
+                self.session_store.update_session(
+                    session.session_id,
+                    ResearchSessionUpdate(status="generating"),
+                )
+                stored_sources = self.source_store.list_sources(session.session_id)
+                session = self.session_store.get_session(session.session_id) or session
+                try:
+                    self.infographic_service.generate_infographic(
+                        session=session,
+                        sources=stored_sources,
+                    )
+                except InfographicServiceError as exc:
+                    self.session_store.update_session(
+                        session.session_id,
+                        ResearchSessionUpdate(status="failed"),
+                    )
+                    raise HTTPException(
+                        status_code=500, detail="Infographic generation failed"
+                    ) from exc
+
+                updated = self.session_store.update_session(
+                    session.session_id,
+                    ResearchSessionUpdate(status="completed"),
+                )
+                return updated or session
+            except SearchServiceError as exc:
+                self.session_store.update_session(
+                    session.session_id,
+                    ResearchSessionUpdate(status="failed"),
+                )
+                raise HTTPException(
+                    status_code=502, detail="Search request failed"
+                ) from exc
 
         @self.get("/sessions", response_model=list[ResearchSession])
         async def list_sessions(
@@ -81,6 +145,8 @@ class SessionRouter(APIRouterBase):
             if session.user_id != calling_user.user_id:
                 raise HTTPException(status_code=403, detail="Not authorized")
             self.message_store.delete_messages_for_session(session_id)
+            self.source_store.delete_sources_for_session(session_id)
+            self.infographic_store.delete_infographic(session_id)
             self.session_store.delete_session(session_id)
             return {"success": True}
 

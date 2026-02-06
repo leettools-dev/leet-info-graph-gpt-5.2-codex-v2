@@ -631,6 +631,86 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "backend-create-infographic-service-py-with-template-based-generation",
+      "content": "Backend: Create `infographic_service.py` with template-based generation",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-basic-template-title-key-points-sources",
+      "content": "Backend: Create basic template (title, key points, sources)",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-generate-png-image-and-save-to-filesystem",
+      "content": "Backend: Generate PNG image and save to filesystem",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-create-infographic-router-py-endpoints",
+      "content": "Backend: Create `infographic_router.py` endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "after-sources-are-gathered-infographic-is-auto-generated",
+      "content": "After sources are gathered, infographic is auto-generated",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "infographic-shows-title-from-prompt-key-bullet-points-source-count",
+      "content": "Infographic shows title (from prompt), key bullet points, source count",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "image-path-stored-in-database",
+      "content": "Image path stored in database",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "backend-parse-search-results-into-source-objects",
+      "content": "Backend: Parse search results into Source objects",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
