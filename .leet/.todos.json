@@ -71,66 +71,6 @@
       "branch": null
     },
     {
-      "id": "backend-create-auth-service-py-to-verify-google-tokens",
-      "content": "Backend: Create `auth_service.py` to verify Google tokens",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-create-auth-router-py-with-auth-google-and-auth-me-endpoints",
-      "content": "Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "backend-generate-jwt-tokens-for-authenticated-sessions",
-      "content": "Backend: Generate JWT tokens for authenticated sessions",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-create-loginpage-vue-with-google-sign-in-button",
-      "content": "Frontend: Create `LoginPage.vue` with Google Sign-In button",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-create-useauth-js-composable-for-auth-state",
-      "content": "Frontend: Create `useAuth.js` composable for auth state",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-create-auth-pinia-store",
-      "content": "Frontend: Create `auth` Pinia store",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "frontend-auth-guard",
       "content": "Frontend: Add auth guard to router",
       "status": "completed",
@@ -143,56 +83,6 @@
     {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "user-can-click-sign-in-with-google-button",
-      "content": "User can click \"Sign in with Google\" button",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "after-google-auth-user-is-redirected-to-chat-page",
-      "content": "After Google auth, user is redirected to Chat page",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "user-info-name-email-is-displayed-in-header",
-      "content": "User info (name, email) is displayed in header",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "unauthenticated-users-are-redirected-to-login-page",
-      "content": "Unauthenticated users are redirected to Login page",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "jwt-token-stored-in-localstorage-sent-with-api-requests",
-      "content": "JWT token stored in localStorage, sent with API requests",
       "status": "pending",
       "background": null,
       "dependencies": [],

@@ -28,6 +28,10 @@ and receive AI-generated infographics wit...
 - Google OAuth login with JWT-based sessions and protected API routes.
 - Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
 
+
+- Google OAuth login with JWT-based sessions and protected API routes.
+- Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
+
 ## Getting Started
 
 ### Prerequisites
