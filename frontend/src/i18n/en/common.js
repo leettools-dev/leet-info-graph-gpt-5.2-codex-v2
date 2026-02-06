@@ -1,5 +1,16 @@
 export default {
   appName: 'Infograph Assistant',
-  backendConnected: 'Backend Connected',
-  backendUnavailable: 'Backend Unavailable',
+  backendLabel: 'Backend:',
+  backendConnected: 'Connected',
+  backendUnavailable: 'Unavailable',
+  logout: 'Logout',
+  userLabel: 'Signed in as',
+  navLogin: 'Login',
+  navChat: 'Chat',
+  navHistory: 'History',
+  loginTitle: 'Login',
+  loginPrompt: 'Sign in with Google to continue.',
+  loginButton: 'Sign in with Google',
+  authFailed: 'Authentication failed. Please try again.',
+  googleUnavailable: 'Google Identity Services is unavailable.',
 }
