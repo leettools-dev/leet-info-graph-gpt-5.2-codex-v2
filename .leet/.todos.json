@@ -1,6 +1,16 @@
 {
   "todos": [
     {
+      "id": "frontend-create-messagelist-vue-and-messagebubble-vue",
+      "content": "Frontend: Create `MessageList.vue` and `MessageBubble.vue`",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
       "id": "frontend-create-chat-pinia-store",
       "content": "Frontend: Create chat Pinia store",
       "status": "pending",
@@ -724,16 +734,6 @@
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
       "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-create-messagelist-vue-and-messagebubble-vue",
-      "content": "Frontend: Create `MessageList.vue` and `MessageBubble.vue`",
-      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
