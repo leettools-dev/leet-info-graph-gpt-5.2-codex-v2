@@ -1,19 +1,9 @@
 {
   "todos": [
     {
-      "id": "backend-create-source-router-py-endpoints",
-      "content": "Backend: Create `source_router.py` endpoints",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "frontend-create-sourcelist-vue-and-sourcecard-vue",
       "content": "Frontend: Create `SourceList.vue` and `SourceCard.vue`",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],

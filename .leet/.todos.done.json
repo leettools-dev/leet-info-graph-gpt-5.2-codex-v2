@@ -721,6 +721,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "backend-create-source-router-py-endpoints",
+      "content": "Backend: Create `source_router.py` endpoints",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

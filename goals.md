@@ -669,7 +669,7 @@ The project is complete when:
 - [ ] Backend: Create `search_service.py` with web search capability
 - [ ] Backend: Parse search results into Source objects
 - [ ] Backend: Store sources linked to session
-- [ ] Backend: Create `source_router.py` endpoints
+- [x] Backend: Create `source_router.py` endpoints
 - [ ] Frontend: Create `SourceList.vue` and `SourceCard.vue`
 - [ ] Frontend: Display sources in session detail
 - [ ] Acceptance Criteria:**
