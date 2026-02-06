@@ -1,16 +1,6 @@
 {
   "todos": [
     {
-      "id": "frontend-add-auth-guard-to-router",
-      "content": "Frontend: Add auth guard to router",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "backend-create-session-router-py-with-all-session-endpoints",
       "content": "Backend: Create `session_router.py` with all session endpoints",
       "status": "pending",
