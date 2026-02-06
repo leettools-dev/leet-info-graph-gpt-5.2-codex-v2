@@ -36,6 +36,8 @@ and receive AI-generated infographics wit...
 - Google OAuth login (GIS) with JWT-backed sessions and /auth/google, /auth/me, /auth/logout endpoints.
 - DuckDB-backed stores for users, sessions, sources, messages, and infographics with auto table creation.
 - Health check endpoint at /api/v1/health for backend connectivity.
+
+- Session and message API endpoints: create/list/get/delete sessions and create/list messages under `/api/v1/sessions`.
 ## Getting Started
 
 ### Prerequisites
