@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from infograph.svc.api.v1.routers.auth_router import AuthRouter
 from infograph.svc.api.v1.routers.health_router import HealthRouter
+from infograph.svc.api.v1.routers.session_router import SessionRouter
 
 
 class ServiceAPIRouter(APIRouter):
@@ -15,3 +16,6 @@ class ServiceAPIRouter(APIRouter):
 
         auth_router = AuthRouter()
         super().include_router(auth_router, tags=["Auth"])
+
+        session_router = SessionRouter()
+        super().include_router(session_router, tags=["Sessions"])
