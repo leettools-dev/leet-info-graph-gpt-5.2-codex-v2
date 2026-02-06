@@ -38,6 +38,18 @@ and receive AI-generated infographics wit...
 - Health check endpoint at /api/v1/health for backend connectivity.
 
 - Session and message API endpoints: create/list/get/delete sessions and create/list messages under `/api/v1/sessions`.
+
+- Basic session management UI: list research sessions and create new prompts from the chat page.
+
+
+- Session detail view placeholder for newly created research sessions.
+
+
+- Session Pinia store for fetching, creating, and removing research sessions.
+
+
+- Session detail route for reviewing a research session after creation.
+
 ## Getting Started
 
 ### Prerequisites
@@ -55,6 +67,10 @@ and receive AI-generated infographics wit...
 
 - Start the backend (`python -m infograph.svc.main --port 8000`) and frontend (`yarn dev`). The header shows backend connectivity.
 - Authenticate via Google Sign-In on the Login page to access protected routes.
+
+
+- Use the Chat page to start a new research session. Provide a prompt, then you are taken to the session detail view.
+- Use the History page to review, open, or delete previous sessions.
 
 # Usage examples will be added
 ```
