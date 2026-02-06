@@ -13,12 +13,16 @@ and receive AI-generated infographics wit...
 
 ## Features
 
-- Authentication: Google Sign-In with JWT-based sessions.
-- Health monitoring: frontend checks `/api/v1/health` and shows backend connectivity status.
+### Authentication
+- Google Identity Services login flow with JWT-backed API session.
+- Authenticated user info displayed in the header with logout support.
+- Route guards redirect unauthenticated users to the login screen.
+- Tokens persisted to localStorage and attached to API requests.
 
 
-- Authentication: Google Sign-In with JWT-based sessions.
-- Health monitoring: frontend checks `/api/v1/health` and shows backend connectivity status.
+### Session Management (In Progress)
+- API placeholders for session operations.
+- UI scaffolding ready for session history.
 
 ## Getting Started
 
