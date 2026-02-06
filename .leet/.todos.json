@@ -8,7 +8,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#google-oauth-auth"
     },
     {
       "id": "pytest-test-passes-for-health-endpoint",
