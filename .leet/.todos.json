@@ -3,7 +3,7 @@
     {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "in_progress",
+      "status": "pending",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -23,46 +23,6 @@
     {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-abstract-store-interfaces-for-user-session-source-infographic-message",
-      "content": "Create abstract store interfaces for User, Session, Source, Infographic, Message",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "implement-duckdb-stores-following-duckdbclient-patterns",
-      "content": "Implement DuckDB stores following `DuckDBClient` patterns",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-tables-with-proper-schemas",
-      "content": "Create tables with proper schemas",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "write-pytest-tests-for-crud-operations",
-      "content": "Write pytest tests for CRUD operations",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1169,6 +1129,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "feature-duckdb-stores",
+      "content": "feature/duckdb-stores",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": "feature/duckdb-stores"
     }
   ]
 }

@@ -606,7 +606,7 @@ The project is complete when:
 - [ ] Create `api_service.py` with FastAPI app, CORS middleware
 - [ ] Create `health_router.py` with `/api/v1/health` endpoint
 - [ ] Add `pyproject.toml` with dependencies
-- [ ] Acceptance Criteria:**
+- [x] Acceptance Criteria:**
 - [ ] `python -m infograph.svc.main --port 8000` starts the server
 - [ ] `GET http://localhost:8000/api/v1/health` returns `{"status": "ok"}`
 - [ ] pytest test passes for health endpoint
@@ -616,19 +616,19 @@ The project is complete when:
 - [ ] Create router with placeholder pages (Login, Chat, History)
 - [ ] Create `request.js` Axios instance pointing to backend
 - [ ] Create health check API call on app load
-- [ ] Acceptance Criteria:**
+- [x] Acceptance Criteria:**
 - [ ] `yarn dev` starts frontend on port 3001
 - [ ] App shows "Backend Connected" status on successful health check
 - [ ] Router navigates between placeholder pages
 - [ ] Tasks:**
-- [ ] Create abstract store interfaces for User, Session, Source, Infographic, Message
-- [ ] Implement DuckDB stores following `DuckDBClient` patterns
-- [ ] Create tables with proper schemas
-- [ ] Write pytest tests for CRUD operations
-- [ ] Acceptance Criteria:**
-- [ ] Can create, read, update, delete all entity types
-- [ ] All store tests pass
-- [ ] Tables created automatically on first use
+- [x] Create abstract store interfaces for User, Session, Source, Infographic, Message
+- [x] Implement DuckDB stores following `DuckDBClient` patterns
+- [x] Create tables with proper schemas
+- [x] Write pytest tests for CRUD operations
+- [x] Acceptance Criteria:**
+- [x] Can create, read, update, delete all entity types
+- [x] All store tests pass
+- [x] Tables created automatically on first use
 - [ ] Tasks:**
 - [ ] Backend: Create `auth_service.py` to verify Google tokens
 - [ ] Backend: Create `auth_router.py` with `/auth/google` and `/auth/me` endpoints
@@ -637,7 +637,7 @@ The project is complete when:
 - [ ] Frontend: Create `useAuth.js` composable for auth state
 - [ ] Frontend: Create `auth` Pinia store
 - [ ] Frontend: Add auth guard to router
-- [ ] Acceptance Criteria:**
+- [x] Acceptance Criteria:**
 - [ ] User can click "Sign in with Google" button
 - [ ] After Google auth, user is redirected to Chat page
 - [ ] User info (name, email) is displayed in header

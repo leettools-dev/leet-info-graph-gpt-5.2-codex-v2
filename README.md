@@ -24,6 +24,10 @@ and receive AI-generated infographics wit...
 - Backend health check endpoint available at `/api/v1/health` with FastAPI service initialization.
 - Frontend health status indicator with backend connectivity check and basic router placeholders.
 
+
+DuckDB-backed data stores for users, research sessions, sources, messages, and infographics with automatic table creation and CRUD support.
+
+DuckDB-backed stores for users, sessions, sources, messages, and infographics with CRUD operations and automatic table creation.
 ## Getting Started
 
 ### Prerequisites
