@@ -3,7 +3,7 @@
     {
       "id": "backend-create-source-router-py-endpoints",
       "content": "Backend: Create `source_router.py` endpoints",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
