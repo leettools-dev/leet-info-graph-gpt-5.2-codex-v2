@@ -40,6 +40,8 @@ and receive AI-generated infographics wit...
 - Stores infographic metadata and image path for retrieval via API.
 - Provides API endpoints to fetch infographic metadata and image file.
 
+
+- Research session sources endpoint: fetch extracted sources for a session with `/api/v1/sessions/{session_id}/sources`.
 ## Getting Started
 
 ### Prerequisites
