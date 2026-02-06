@@ -1,36 +1,6 @@
 {
   "todos": [
     {
-      "id": "can-create-read-update-delete-all-entity-types",
-      "content": "Can create, read, update, delete all entity types",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "all-store-tests-pass",
-      "content": "All store tests pass",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tables-created-automatically-on-first-use",
-      "content": "Tables created automatically on first use",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "frontend-add-auth-guard-to-router",
       "content": "Frontend: Add auth guard to router",
       "status": "pending",

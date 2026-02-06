@@ -32,6 +32,10 @@ and receive AI-generated infographics wit...
 - Google OAuth login with JWT-based sessions and protected API routes.
 - Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
 
+
+- Google OAuth login (GIS) with JWT-backed sessions and /auth/google, /auth/me, /auth/logout endpoints.
+- DuckDB-backed stores for users, sessions, sources, messages, and infographics with auto table creation.
+- Health check endpoint at /api/v1/health for backend connectivity.
 ## Getting Started
 
 ### Prerequisites
