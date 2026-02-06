@@ -3,7 +3,7 @@
     {
       "id": "backend-parse-search-results-into-source-objects",
       "content": "Backend: Parse search results into Source objects",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
