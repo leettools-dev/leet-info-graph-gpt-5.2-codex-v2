@@ -20,6 +20,10 @@ and receive AI-generated infographics wit...
 - Frontend skeleton with Vue 3 + Vite, TailwindCSS, Element Plus, and placeholder routes (Login, Chat, History).
 - Backend health check integration on app load with connection status banner.
 - Initial i18n scaffolding for English, Japanese, and Chinese UI strings.
+
+- Backend health check endpoint available at `/api/v1/health` with FastAPI service initialization.
+- Frontend health status indicator with backend connectivity check and basic router placeholders.
+
 ## Getting Started
 
 ### Prerequisites

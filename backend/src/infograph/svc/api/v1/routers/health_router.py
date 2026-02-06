@@ -9,4 +9,4 @@ class HealthRouter(APIRouterBase):
 
         @self.get("/health")
         async def health_check() -> dict:
-            return {"status": "ok", "version": "1.0.0"}
+            return {"status": "ok"}
