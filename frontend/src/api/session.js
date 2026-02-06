@@ -10,3 +10,8 @@ export const listSessions = (params = {}) =>
 export const getSession = (sessionId) => request.get(`/api/v1/sessions/${sessionId}`)
 
 export const deleteSession = (sessionId) => request.delete(`/api/v1/sessions/${sessionId}`)
+
+export const listMessages = (sessionId) => request.get(`/api/v1/sessions/${sessionId}/messages`)
+
+export const createMessage = (sessionId, payload) =>
+  request.post(`/api/v1/sessions/${sessionId}/messages`, payload)

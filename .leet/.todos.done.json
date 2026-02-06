@@ -531,6 +531,26 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": "main#feature#frontend-session-store"
+    },
+    {
+      "id": "backend-create-message-endpoints-in-session-router-py",
+      "content": "Backend: Create message endpoints in `session_router.py`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-chatpage-vue-with-full-chat-interface",
+      "content": "Frontend: Create `ChatPage.vue` with full chat interface",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

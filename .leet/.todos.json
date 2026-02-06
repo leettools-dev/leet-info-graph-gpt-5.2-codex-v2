@@ -1,26 +1,6 @@
 {
   "todos": [
     {
-      "id": "backend-create-message-endpoints-in-session-router-py",
-      "content": "Backend: Create message endpoints in `session_router.py`",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "frontend-create-chatpage-vue-with-full-chat-interface",
-      "content": "Frontend: Create `ChatPage.vue` with full chat interface",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "frontend-create-chatinput-vue-component",
       "content": "Frontend: Create `ChatInput.vue` component",
       "status": "pending",
