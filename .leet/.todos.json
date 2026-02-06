@@ -1,16 +1,6 @@
 {
   "todos": [
     {
-      "id": "goal1-backend-skeleton",
-      "content": "Implement backend skeleton (package structure, FastAPI app, health router, CLI, pyproject) with tests",
-      "status": "in_progress",
-      "background": "",
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": "",
-      "branch": "main#feature#backend_skeleton"
-    },
-    {
       "id": "goal2-frontend-skeleton",
       "content": "Implement frontend skeleton (Vite/Vue, Tailwind, router pages, health check) with tests",
       "status": "pending",

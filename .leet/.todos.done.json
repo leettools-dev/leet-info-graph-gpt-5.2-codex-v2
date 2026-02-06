@@ -1,3 +1,14 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "goal1-backend-skeleton",
+      "content": "Implement backend skeleton (package structure, FastAPI app, health router, CLI, pyproject) with tests",
+      "status": "completed",
+      "background": "",
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": "",
+      "branch": "main#feature#backend_skeleton"
+    }
+  ]
 }
