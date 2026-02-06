@@ -561,6 +561,16 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "frontend-create-messagelist-vue-and-messagebubble-vue",
+      "content": "Frontend: Create `MessageList.vue` and `MessageBubble.vue`",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }
