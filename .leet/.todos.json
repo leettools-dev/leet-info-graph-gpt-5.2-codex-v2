@@ -1,34 +1,3 @@
 {
-  "todos": [
-    {
-      "id": "1",
-      "content": "Create backend session router with session + message endpoints and wire into API",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "2",
-      "content": "Add/update backend session router tests for session and message endpoints",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "3",
-      "content": "Update README with session/message endpoints usage once implemented",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    }
-  ]
+  "todos": []
 }
