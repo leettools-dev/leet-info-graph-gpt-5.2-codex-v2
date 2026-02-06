@@ -1,6 +1,16 @@
 {
   "todos": [
     {
+      "id": "acceptance-criteria",
+      "content": "Acceptance Criteria:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
       "id": "pytest-test-passes-for-health-endpoint",
       "content": "pytest test passes for health endpoint",
       "status": "pending",
@@ -1121,24 +1131,14 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
+      "id": "feature-duckdb-stores",
+      "content": "feature/duckdb-stores",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "run-pytest-when-environment-has-dependencies-installed",
-      "content": "Run pytest when environment has dependencies installed",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
+      "branch": "feature/duckdb-stores"
     }
   ]
 }
