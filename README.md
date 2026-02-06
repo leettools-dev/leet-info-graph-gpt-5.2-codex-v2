@@ -24,6 +24,10 @@ and receive AI-generated infographics wit...
 - API placeholders for session operations.
 - UI scaffolding ready for session history.
 
+
+- Google OAuth login with JWT-based sessions and protected API routes.
+- Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
+
 ## Getting Started
 
 ### Prerequisites
