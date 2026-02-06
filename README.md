@@ -36,6 +36,8 @@ and receive AI-generated infographics wit...
 
 - Chat state management via Pinia with message fetching/sending status tracking.
 
+
+Web search service parses DuckDuckGo results into structured Source entries with confidence scores for research sessions.
 ## Getting Started
 
 ### Prerequisites
