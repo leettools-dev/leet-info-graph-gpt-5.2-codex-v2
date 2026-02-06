@@ -441,6 +441,86 @@
       "suggested_solutions": [],
       "goal_id": null,
       "branch": null
+    },
+    {
+      "id": "backend-implement-session-store-operations",
+      "content": "Backend: Implement session store operations",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-session-pinia-store",
+      "content": "Frontend: Create session Pinia store",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-add-new-research-button-on-chat-page",
+      "content": "Frontend: Add \"New Research\" button on Chat page",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "frontend-create-historypage-vue-with-session-list",
+      "content": "Frontend: Create `HistoryPage.vue` with session list",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-create-a-new-research-session-with-a-prompt",
+      "content": "User can create a new research session with a prompt",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-see-list-of-their-sessions-on-history-page",
+      "content": "User can see list of their sessions on History page",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-click-a-session-to-view-details",
+      "content": "User can click a session to view details",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "user-can-delete-a-session",
+      "content": "User can delete a session",
+      "status": "completed",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
     }
   ]
 }

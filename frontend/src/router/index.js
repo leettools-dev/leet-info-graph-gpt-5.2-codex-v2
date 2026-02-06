@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LoginPage from '../pages/auth/LoginPage.vue'
 import ChatPage from '../pages/chat/ChatPage.vue'
 import HistoryPage from '../pages/history/HistoryPage.vue'
+import SessionDetailPage from '../pages/session/SessionDetailPage.vue'
 import { useAuthStore } from '../stores/modules/auth'
 import { pinia } from '../stores'
 
@@ -10,6 +11,12 @@ const routes = [
   { path: '/login', name: 'login', component: LoginPage },
   { path: '/chat', name: 'chat', component: ChatPage, meta: { requiresAuth: true } },
   { path: '/history', name: 'history', component: HistoryPage, meta: { requiresAuth: true } },
+  {
+    path: '/sessions/:sessionId',
+    name: 'session-detail',
+    component: SessionDetailPage,
+    meta: { requiresAuth: true },
+  },
 ]
 
 const router = createRouter({
