@@ -3,7 +3,7 @@
     {
       "id": "backend-create-session-router-py-with-all-session-endpoints",
       "content": "Backend: Create `session_router.py` with all session endpoints",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
