@@ -33,6 +33,9 @@ and receive AI-generated infographics wit...
 - Message list with role styling, loading indicator, and auto-scroll to newest message.
 - Inline message composer with validation and error messaging.
 - ChatInput component for composing and sending research messages with keyboard shortcuts and a send button.
+
+- Chat state management via Pinia with message fetching/sending status tracking.
+
 ## Getting Started
 
 ### Prerequisites
