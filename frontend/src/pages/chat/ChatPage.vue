@@ -46,31 +46,7 @@
       <div v-else-if="!messages.length" class="text-sm text-slate-500">
         {{ t('common.chatNoMessages') }}
       </div>
-      <div v-else class="space-y-3">
-        <article
-          v-for="message in messages"
-          :key="message.message_id"
-          :class="message.role === 'user' ? 'flex justify-end' : 'flex justify-start'"
-        >
-          <div class="max-w-[70%]">
-            <p class="text-[10px] uppercase tracking-wide text-slate-400">
-              {{ roleLabel(message.role) }}
-            </p>
-            <p
-              class="mt-1 rounded-md px-3 py-2 text-sm"
-              :class="
-                message.role === 'user'
-                  ? 'bg-blue-50 text-blue-900'
-                  : message.role === 'assistant'
-                    ? 'bg-slate-100 text-slate-800'
-                    : 'bg-amber-50 text-amber-900'
-              "
-            >
-              {{ message.content }}
-            </p>
-          </div>
-        </article>
-      </div>
+      <MessageList v-else :messages="messages" :role-label="roleLabel" />
       <div v-if="isSending" class="mt-3 text-xs text-slate-500">
         {{ t('common.chatSending') }}
       </div>
@@ -123,6 +99,7 @@ import { useI18n } from 'vue-i18n'
 
 import { createMessage, listMessages } from '../../api/session'
 import ChatInput from '../../components/chat/ChatInput.vue'
+import MessageList from '../../components/chat/MessageList.vue'
 import { useSessionStore } from '../../stores/modules/session'
 
 const router = useRouter()
