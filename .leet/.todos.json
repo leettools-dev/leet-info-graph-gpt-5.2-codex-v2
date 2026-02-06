@@ -1,18 +1,6 @@
 {
   "todos": [
     {
-      "id": "auth-backend-service-jwt",
-      "content": "Implement backend auth service + JWT handling (Google token verify, auth router)",
-      "status": "in_progress",
-      "background": "Goal 4: Google OAuth Login backend pieces.",
-      "dependencies": [],
-      "suggested_solutions": [
-        "Add auth_service.py to verify Google token using google-auth, issue JWT with 24h expiry, integrate auth_router endpoints, update API router registration and settings for JWT/Google client ID."
-      ],
-      "goal_id": "goal-4",
-      "branch": "feature/auth-backend"
-    },
-    {
       "id": "auth-frontend-login",
       "content": "Implement frontend login flow (LoginPage, useAuth, auth store, router guard)",
       "status": "pending",
@@ -41,6 +29,16 @@
     {
       "id": "install-pytest-in-backend-environment-to-run-tests",
       "content": "Install pytest in backend environment to run tests",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "mark-goal-list-entries-for-auth-backend-tasks-as-completed-(auth_service/auth_router/jwt)",
+      "content": "Mark goal list entries for auth backend tasks as completed (auth_service/auth_router/JWT)",
       "status": "pending",
       "background": null,
       "dependencies": [],
