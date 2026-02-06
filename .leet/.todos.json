@@ -78,7 +78,7 @@
       "dependencies": [],
       "suggested_solutions": [],
       "goal_id": null,
-      "branch": null
+      "branch": "main#feature#frontend-session-store"
     },
     {
       "id": "backend-create-message-endpoints-in-session-router-py",
