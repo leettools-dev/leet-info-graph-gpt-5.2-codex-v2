@@ -19,43 +19,20 @@ and receive AI-generated infographics wit...
 - Route guards redirect unauthenticated users to the login screen.
 - Tokens persisted to localStorage and attached to API requests.
 
-
 ### Session Management (In Progress)
 - API placeholders for session operations.
 - UI scaffolding ready for session history.
-
-
-- Google OAuth login with JWT-based sessions and protected API routes.
-- Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
-
-
-- Google OAuth login with JWT-based sessions and protected API routes.
-- Authenticated user profile retrieval via /api/v1/auth/me and logout endpoint.
-
-
-- Google OAuth login (GIS) with JWT-backed sessions and /auth/google, /auth/me, /auth/logout endpoints.
-- DuckDB-backed stores for users, sessions, sources, messages, and infographics with auto table creation.
-- Health check endpoint at /api/v1/health for backend connectivity.
-
 - Session and message API endpoints: create/list/get/delete sessions and create/list messages under `/api/v1/sessions`.
-
 - Basic session management UI: list research sessions and create new prompts from the chat page.
-
-
 - Session detail view placeholder for newly created research sessions.
-
-
 - Session Pinia store for fetching, creating, and removing research sessions.
-
-
 - Session detail route for reviewing a research session after creation.
-
 
 ### Chat Interface
 - Active session overview on the Chat page with prompt context and status.
 - Message list with role styling, loading indicator, and auto-scroll to newest message.
 - Inline message composer with validation and error messaging.
-
+- ChatInput component for composing and sending research messages with keyboard shortcuts and a send button.
 ## Getting Started
 
 ### Prerequisites

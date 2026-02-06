@@ -26,6 +26,7 @@ export default {
     chatSending: '发送中...',
     chatInputPlaceholder: '输入你的问题或后续补充...',
     chatInputHint: '按 Enter 发送，Shift + Enter 换行。',
+    chatInputAria: '聊天消息',
     sendMessage: '发送',
     chatRoleAssistant: '助手',
     chatRoleSystem: '系统',

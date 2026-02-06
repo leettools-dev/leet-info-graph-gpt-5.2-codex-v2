@@ -26,6 +26,7 @@ export default {
     chatSending: '送信中...',
     chatInputPlaceholder: '質問やフォローアップを入力してください...',
     chatInputHint: 'Enterで送信、Shift + Enterで改行。',
+    chatInputAria: 'チャットメッセージ',
     sendMessage: '送信',
     chatRoleAssistant: 'アシスタント',
     chatRoleSystem: 'システム',
