@@ -17,8 +17,9 @@ and receive AI-generated infographics wit...
 
 
 - Backend skeleton with FastAPI service, Click CLI entry point, and health check endpoint at `/api/v1/health`.
-
-- Backend skeleton with FastAPI service, Click CLI entry point, and health check endpoint at `/api/v1/health`.
+- Frontend skeleton with Vue 3 + Vite, TailwindCSS, Element Plus, and placeholder routes (Login, Chat, History).
+- Backend health check integration on app load with connection status banner.
+- Initial i18n scaffolding for English, Japanese, and Chinese UI strings.
 ## Getting Started
 
 ### Prerequisites
