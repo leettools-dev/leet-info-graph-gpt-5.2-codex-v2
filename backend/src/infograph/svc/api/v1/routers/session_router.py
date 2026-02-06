@@ -28,6 +28,22 @@ from infograph.svc.api_router_base import APIRouterBase
 from infograph.svc.auth import AuthManager, get_auth_manager
 
 
+TEST_SEARCH_HTML = """
+<html>
+<body>
+  <div class="results">
+    <a class="result__a" href="https://example.com/alpha">Alpha Title</a>
+    <span class="result__snippet">Alpha snippet text.</span>
+  </div>
+  <div class="results">
+    <a class="result__a" href="/beta">Beta Title</a>
+    <span class="result__snippet">Beta snippet text.</span>
+  </div>
+</body>
+</html>
+"""
+
+
 class MessagePayload(BaseModel):
     role: Literal["user", "assistant", "system"]
     content: str
@@ -53,7 +69,7 @@ class SessionRouter(APIRouterBase):
         self.source_store = SourceStoreDuckDB(client=client)
         self.infographic_store = InfographicStoreDuckDB(client=client)
         self.auth_manager = get_auth_manager()
-        test_fetcher = (lambda _query: "<html></html>") if settings.is_test else None
+        test_fetcher = (lambda _query: TEST_SEARCH_HTML) if settings.is_test else None
         self.search_service = SearchService(fetcher=test_fetcher)
         self.infographic_service = InfographicService(
             infographic_store=self.infographic_store,
