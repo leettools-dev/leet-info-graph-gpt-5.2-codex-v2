@@ -1,39 +1,9 @@
 {
   "todos": [
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": "main#feature#google-oauth-auth"
-    },
-    {
       "id": "pytest-test-passes-for-health-endpoint",
       "content": "pytest test passes for health endpoint",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
+      "status": "in_progress",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -74,16 +44,6 @@
       "id": "frontend-auth-guard",
       "content": "Frontend: Add auth guard to router",
       "status": "completed",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
       "background": null,
       "dependencies": [],
       "suggested_solutions": [],
@@ -133,16 +93,6 @@
     {
       "id": "frontend-create-historypage-vue-with-session-list",
       "content": "Frontend: Create `HistoryPage.vue` with session list",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -233,16 +183,6 @@
     {
       "id": "frontend-create-chat-pinia-store",
       "content": "Frontend: Create chat Pinia store",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -351,16 +291,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "when-user-submits-a-research-prompt-web-search-is-triggered",
       "content": "When user submits a research prompt, web search is triggered",
       "status": "pending",
@@ -461,16 +391,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "after-sources-are-gathered-infographic-is-auto-generated",
       "content": "After sources are gathered, infographic is auto-generated",
       "status": "pending",
@@ -541,16 +461,6 @@
       "branch": null
     },
     {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "user-can-filter-sessions-by-date-range",
       "content": "User can filter sessions by date range",
       "status": "pending",
@@ -613,16 +523,6 @@
     {
       "id": "frontend-add-export-buttons-to-session-detail",
       "content": "Frontend: Add export buttons to session detail",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -713,16 +613,6 @@
     {
       "id": "frontend-regenerate-infographic-with-new-template",
       "content": "Frontend: Regenerate infographic with new template",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "acceptance-criteria",
-      "content": "Acceptance Criteria:**",
       "status": "pending",
       "background": null,
       "dependencies": [],
