@@ -1,66 +1,6 @@
 {
   "todos": [
     {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "in_progress",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "initialize-python-package-structure-under-backend-src-infograph",
-      "content": "Initialize Python package structure under `backend/src/infograph/`",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-main-py-with-click-cli-for-starting-server",
-      "content": "Create `main.py` with Click CLI for starting server",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-api-service-py-with-fastapi-app-cors-middleware",
-      "content": "Create `api_service.py` with FastAPI app, CORS middleware",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-health-router-py-with-api-v1-health-endpoint",
-      "content": "Create `health_router.py` with `/api/v1/health` endpoint",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "add-pyproject-toml-with-dependencies",
-      "content": "Add `pyproject.toml` with dependencies",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
       "status": "pending",
@@ -71,128 +11,8 @@
       "branch": null
     },
     {
-      "id": "python--m-infograph-svc-main---port-8000-starts-the-server",
-      "content": "`python -m infograph.svc.main --port 8000` starts the server",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "get-http-localhost-8000-api-v1-health-returns-status-ok",
-      "content": "`GET http://localhost:8000/api/v1/health` returns `{\"status\": \"ok\"}`",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "pytest-test-passes-for-health-endpoint",
-      "content": "pytest test passes for health endpoint",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "tasks",
-      "content": "Tasks:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "initialize-vite-vue-3-project",
-      "content": "Initialize Vite + Vue 3 project",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "configure-tailwindcss-and-element-plus",
-      "content": "Configure TailwindCSS and Element Plus",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-router-with-placeholder-pages-login-chat-history",
-      "content": "Create router with placeholder pages (Login, Chat, History)",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-request-js-axios-instance-pointing-to-backend",
-      "content": "Create `request.js` Axios instance pointing to backend",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "create-health-check-api-call-on-app-load",
-      "content": "Create health check API call on app load",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
       "id": "acceptance-criteria",
       "content": "Acceptance Criteria:**",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "yarn-dev-starts-frontend-on-port-3001",
-      "content": "`yarn dev` starts frontend on port 3001",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "app-shows-backend-connected-status-on-successful-health-check",
-      "content": "App shows \"Backend Connected\" status on successful health check",
-      "status": "pending",
-      "background": null,
-      "dependencies": [],
-      "suggested_solutions": [],
-      "goal_id": null,
-      "branch": null
-    },
-    {
-      "id": "router-navigates-between-placeholder-pages",
-      "content": "Router navigates between placeholder pages",
       "status": "pending",
       "background": null,
       "dependencies": [],
@@ -1423,6 +1243,36 @@
     {
       "id": "readme-documents-all-features-and-setup-instructions",
       "content": "README documents all features and setup instructions",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "tasks",
+      "content": "Tasks:**",
+      "status": "pending",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "tasks",
+      "content": "Tasks:**",
+      "status": "in_progress",
+      "background": null,
+      "dependencies": [],
+      "suggested_solutions": [],
+      "goal_id": null,
+      "branch": null
+    },
+    {
+      "id": "pytest-test-passes-for-health-endpoint",
+      "content": "pytest test passes for health endpoint",
       "status": "pending",
       "background": null,
       "dependencies": [],
