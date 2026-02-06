@@ -26,6 +26,8 @@ and receive AI-generated infographics wit...
 
 
 DuckDB-backed data stores for users, research sessions, sources, messages, and infographics with automatic table creation and CRUD support.
+
+DuckDB-backed stores for users, sessions, sources, messages, and infographics with CRUD operations and automatic table creation.
 ## Getting Started
 
 ### Prerequisites
